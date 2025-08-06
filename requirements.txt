@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+langchain
+crewai
+pydantic
+python-dotenv
+pandas
+sqlalchemy
