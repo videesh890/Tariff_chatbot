@@ -54,13 +54,15 @@ tariff_management_chatbot/
 4. **Add .env File**
 
     OPENAI_API_KEY="your_openai_api_key_here"
-#please ensure that all files must be saved 
+
+**please ensure that all files must be saved** 
+
 5. **Run the main file for backend**
     python main.py
 
 6. **Run the Streamlit file**
  
- streamlit run streamlit.py 
+    streamlit run streamlit.py 
 
 ## 🖼️ Sample Output
 
