@@ -324,3 +324,13 @@ with tab6:
             with st.form("chat_form_tab6"):
                 st.markdown("#### 💬 Chat About This Calculation")
                 user_q = st.text_input("Ask about this calculation:", key="tab6_chat")
+   
+                chat_submitted = st.form_submit_button("Ask AI")
+            if chat_submitted and user_q:
+                with st.spinner("AI thinking..."):
+                    ai_reply = ask_ai_about_result("Landed Cost Calculation", json.dumps(data, indent=2), user_q, openai_key)
+                st.markdown(
+                    f"<div style='background:#1c2837;padding:10px 18px;border-radius:10px;margin:18px 0;'>"
+                    f"<b>AI:</b> {ai_reply}</div>",
+                    unsafe_allow_html=True
+                )
