@@ -8,11 +8,8 @@ An intelligent, Streamlit-based AI assistant that helps users analyze, calculate
 - 📦 **HS/HTS Code Inference**: Automatically suggest product classification codes using AI.
 - 💬 **Conversational Interface**: Interactive chatbot powered by OpenAI for seamless user experience.
 - 🔁 **What-If Scenario Simulator**: Compare tariff impact based on country, sourcing options, or policy changes.
-- 📄 **Auto-Generated Reports**: Export detailed tariff and sourcing summaries.
 - 📊 **Tariff Cost Breakdown**: Visual display of import duties, shipping costs, and landed cost.
 - 🧠 **OpenAI Integration**: Uses GPT-based models and embeddings for semantic understanding.
-- 📁 **Custom Dataset Support**: Load and analyze tariff data from sources like WTO, USITC, or UN Comtrade.
-
 ---
 
 ## 📂 Project Structure
@@ -34,7 +31,7 @@ tariff_management_chatbot/
 
 - **Frontend**: [Streamlit](https://streamlit.io/)
 - **Backend**: Python + FastAPI (optional)
-- **AI Models**: OpenAPI key
+- **AI Models**: OpenAI -gpt3.5-turbo 
 - **Embeddings**: OpenAI Embeddings
 - **Vector Search**: FAISS / custom similarity search
 
