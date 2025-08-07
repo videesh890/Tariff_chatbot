@@ -14,20 +14,7 @@ An intelligent, Streamlit-based AI assistant that helps users analyze, calculate
 
 ---
 
-## 📂 Project Structure
-tariff_management_chatbot/
-│
-├── data/ # Datasets like tariffs, HS codes, etc.
-├── scripts/ # Helper scripts (parsing, preprocessing, etc.)
-├── src/ # Core logic (RAG chain, embedding store, etc.)
-│
-├── main.py #Backend logic 
-├── streamlit.py # Streamlit UI logic
-├── columns.py # Column display and formatting
-├── setup.py # Setup configuration
-├── requirements.txt # Python dependencies
-├── .env # API keys and sensitive configs
-└── .gitignore # Files ignored by Git
+<pre> ## 📂 Project Structure ```bash tariff_management_chatbot/ │ ├── data/ # Datasets like tariffs, HS codes, etc. ├── scripts/ # Helper scripts (parsing, preprocessing, etc.) ├── src/ # Core logic (RAG chain, embedding store, etc.) │ ├── main.py # Backend logic ├── streamlit.py # Streamlit UI logic ├── columns.py # Column display and formatting ├── setup.py # Setup configuration ├── requirements.txt # Python dependencies ├── .env # API keys and sensitive configs └── .gitignore # Files ignored by Git ``` </pre>
 
 ## Tech Stack
 
