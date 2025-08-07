@@ -45,18 +45,18 @@ tariff_management_chatbot/
    cd Tariff_chatbot
 
 2. **Create a Virtual Environment**
-python -m venv venv   
-.\venv\Scripts\activate  
+   python -m venv venv   
+  .\venv\Scripts\activate  
 
 3. **Install Requirements**
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 4. **Add .env File**
 
-OPENAI_API_KEY=your_openai_api_key_here
-
+    OPENAI_API_KEY="your_openai_api_key_here"
+#please ensure that all files must be saved 
 5. **Run the main file for backend**
- main.py
+    python main.py
 
 6. **Run the Streamlit file**
  
