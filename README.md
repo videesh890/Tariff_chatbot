@@ -2,14 +2,17 @@
 
 An intelligent, Streamlit-based AI assistant that helps users analyze, calculate, and simulate international tariff scenarios. The chatbot supports tariff lookup, HS code inference, cost-effective sourcing suggestions, and report generation — all within a conversational UI.
 
-## 📌 Features
+##  Features
 
-- 🔍 **Smart Product Search**: Find tariff details using natural language input.
-- 📦 **HS/HTS Code Inference**: Automatically suggest product classification codes using AI.
-- 💬 **Conversational Interface**: Interactive chatbot powered by OpenAI for seamless user experience.
-- 🔁 **What-If Scenario Simulator**: Compare tariff impact based on country, sourcing options, or policy changes.
-- 📊 **Tariff Cost Breakdown**: Visual display of import duties, shipping costs, and landed cost.
-- 🧠 **OpenAI Integration**: Uses GPT-based models and embeddings for semantic understanding.
+- **Smart Product Search**: Find tariff details using natural language input.
+- **HS/HTS Code Inference**: Automatically suggest product classification codes using AI.
+- **Conversational Interface**: Interactive chatbot powered by OpenAI for seamless user experience.
+- **What-If Scenario Simulator**: Compare tariff impact based on country, sourcing options, or policy changes.
+-  **Auto-Generated Reports**: Export detailed tariff and sourcing summaries.
+-  **Tariff Cost Breakdown**: Visual display of import duties, shipping costs, and landed cost.
+-  **OpenAI Integration**: Uses GPT-based models and embeddings for semantic understanding.
+-  **Custom Dataset Support**: Load and analyze tariff data from sources like WTO, USITC, or UN Comtrade.
+
 ---
 
 ## 📂 Project Structure
@@ -31,13 +34,13 @@ tariff_management_chatbot/
 
 - **Frontend**: [Streamlit](https://streamlit.io/)
 - **Backend**: Python + FastAPI (optional)
-- **AI Models**: OpenAI -gpt3.5-turbo 
+- **AI Models**: OpenAPI key
 - **Embeddings**: OpenAI Embeddings
 - **Vector Search**: FAISS / custom similarity search
 
 ---
 
-##  Setup Instructions
+##  Setup Instructions & Runing instructions 
 
 1. **Clone the Repository**
    ```bash
@@ -45,27 +48,26 @@ tariff_management_chatbot/
    cd Tariff_chatbot
 
 2. **Create a Virtual Environment**
-   python -m venv venv   
-  .\venv\Scripts\activate  
+python -m venv venv   
+.\venv\Scripts\activate  
 
 3. **Install Requirements**
-   pip install -r requirements.txt
+pip install -r requirements.txt
 
 4. **Add .env File**
 
-    OPENAI_API_KEY="your_openai_api_key_here"
-
-  **please ensure that all files must be saved** 
+OPENAI_API_KEY=your_openai_api_key_here
 
 5. **Run the main file for backend**
-    python main.py
+ main.py
 
 6. **Run the Streamlit file**
  
-    streamlit run streamlit.py 
-
+ streamlit run streamlit.py 
+'''
 ## 🖼️ Sample Output
 
-![Tariff Chatbot Output](images/output_img.png)
+![Tariff Chatbot Output](output_img.png)
+
 
 
